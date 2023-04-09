@@ -147,6 +147,24 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
+    $('#Now').click(function(){
+     // $('#Now').next().css('backgroundColor', 'pink')
+     // $(this).prevAll().css('background-color','skyBlue');
+     // $(this).nextAll().css('background-color','skyBlue');
+     // $(this).siblings().css('backgroundColor', 'yellowgreen')
+     //$(this).siblings().first().css('backgroundColor','yellow')
+     //$(this).siblings().last().css('backgroundColor','yellow')
+   // $(this).parent().siblings().css('backgroundColor','pink')
+   //$(this).siblings().eq(2).css('backgroundColor','pink')
+     //$(this).parent().siblings().last().find('P').filter().css('backgroundColor','pink')
+    // $(this).parent().children().filter(':even').css('backgroundColor','pink')
+     //$(this).parent().siblings().eq(1).find('li').css('backgroundColor','pink')
+     //$(this).parent().siblings().last().find("p").filter(':odd').css('backgroundColor','skyBlue')
+       //$(this).parent().siblings('ul')
+       $(this).parent().siblings().has('li').css('backgroundColor','skyBlue')
+    });
+    
+    // 同層其他//
 
   </script>
 </body>
