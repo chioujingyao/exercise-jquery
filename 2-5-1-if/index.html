@@ -16,7 +16,14 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
+		const money = 12;
+     $('#Money').text(money);
 
+	 if(money >= 150){
+		$('#Todo').text('我要去吃賣當勞');	
+	 } else{
+		$('#Todo').text('只能吃泡面了');
+	 }
 	</script>
 </body>
 
